@@ -1,0 +1,28 @@
+#dataSub{
+	color: #42a7f4;
+}
+
+#navbarDropdown{
+	color: #42a7f4;
+}
+
+#comparisonSub{
+	color: #42a7f4;
+}
+
+#HeaderBrand{
+	font-size: 20px;
+}
+
+body{
+	background-color: #42a7f4;
+}
+
+#leftsideHome, #rightsideHome{
+	background-color: white;
+}
+
+.smallimages{
+	width: 300px;
+	height: auto;
+}
