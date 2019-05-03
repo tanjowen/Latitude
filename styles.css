@@ -21,8 +21,15 @@ body{
 #leftsideHome, #rightsideHome{
 	background-color: white;
 }
-
+.mainimageHome{
+	width: 500px;
+	height: auto;
+	float: left;
+}
 .smallimages{
-	width: 300px;
+	width: 400px;
 	height: auto;
 }
+
+
+

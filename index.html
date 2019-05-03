@@ -26,7 +26,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="#######">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
 
         <li class="nav-item">
@@ -59,22 +59,36 @@
 
   <div class="container-fluid">
     <div class="section-home">
-
+<!-- this is left side -->
     <div class="row justify-content-around">
-      <div class="col-md-6 my-5 p-5 rounded" id="leftsideHome">
-        <h1>hello is this working</h1>
-        <hr>
-        <img src="Resources/Fig1.png">
+      <div class="col-6 col-md-6 mt-5 mb-auto py-5 px-4 rounded" id="leftsideHome">
+        <h1>Summary: Latitude vs. X</h1>
+        <br><hr>
+        <p><img class="mainimageHome img-fluid" src="Resources/Fig1.png" style="margin-right: 10px">Bacon ipsum dolor amet jowl capicola sausage spare ribs, shoulder andouille chicken hamburger flank swine landjaeger short loin tri-tip. Salami short loin sirloin tongue kevin t-bone. Pig short loin short ribs strip steak landjaeger venison drumstick meatloaf. Bresaola cow andouille biltong. Ribeye jowl fatback capicola prosciutto tenderloin short ribs picanha tongue tri-tip cow pig.</p>
       </div>
-
-      <div class="col-md-5 my-5 p-5 rounded" id="rightsideHome">
+<!-- this is right side  -->
+      <div class="col-5 col-md-5 mt-5 mb-5 py-5 px-4 rounded" id="rightsideHome">
         <h1>Visualizations</h1>
-        <hr>
-        
-        <a href="maxtemp.html"><img class="smallimages" src="Resources/Fig1.png"></a>
-        <a href="humidity.html"><img class="smallimages" src="Resources/Fig2.png"></a>
-        <a href="cloudy.html"><img class="smallimages" src="Resources/Fig3.png"></a>
-        <a href="windy.html"><img class="smallimages" src="Resources/Fig4.png"></a>
+        <br><hr>
+
+        <div class="row">
+          <div class="col-6 col-md-6">
+          <a href="maxtemp.html"><img class="img-fluid" id="sm-maxtemp" src="Resources/Fig1.png"></a>
+          </div>
+          <div class="col-6 col-md-6">
+          <a href="humidity.html"><img class="img-fluid" id="sm-humidity" src="Resources/Fig2.png"></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-md-6">
+          <a href="cloudy.html"><img class="img-fluid" id="sm-cloudy" src="Resources/Fig3.png"></a>
+          </div>
+          <div class="col-6 col-md-6">
+          <a href="windy.html"><img class="img-fluid" id="sm-windy" src="Resources/Fig4.png"></a>
+          </div>
+        </div>
+
       </div>
 
     </div>
