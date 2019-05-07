@@ -1,28 +1,32 @@
+body{
+	background-color: #5D5C61;
+}
+nav{
+	background-color: #B1A296;
+}
+
+#leftsideHome, #rightsideHome{
+	background-color: white;
+}
 #dataSub{
-	color: #42a7f4;
+	color: #5D5C61;
 }
 
 #navbarDropdown{
-	color: #42a7f4;
+	color: #5D5C61;
 }
 
 #comparisonSub{
-	color: #42a7f4;
+	color: #5D5C61;
 }
 
 #HeaderBrand{
 	font-size: 20px;
 }
 
-body{
-	background-color: #42a7f4;
-}
 
-#leftsideHome, #rightsideHome{
-	background-color: white;
-}
 .mainimageHome{
-	width: 400px;
+	width: 50%;
 	height: auto;
 	float: left;
 }
@@ -30,6 +34,26 @@ body{
 	width: 400px;
 	height: auto;
 }
+#ind-vis{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+p{
+	line-height: 2;
+}
+h1{
+	color: #557A95;
+}
+h3{
+	text-align: center;
+	color: #7395AE;
+}
 
+@media (max-width: 991px){
+	nav{
+		background-color: white;
+	}
 
+}
